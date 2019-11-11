@@ -14,12 +14,6 @@ npm install
 npm start
 ```
 
-## Tests
-
-```
-npm test
-```
-
 ## Technologies
 
 Project created using:
@@ -31,6 +25,12 @@ Project created using:
 * eslint 6.1.0
 * jest 24.9.0
 
-### Comments
-
 ### Future
+
+* Add snapshot tests
+* Simplify usage of redux 
+* Create separate reducers instead of one global
+* Use redux helpers to simplify return of existing state 
+* Add FontAwesome (or some alternative) for prettier icons
+* Refactor components/ folder for better readability
+
