@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar tests search bar should be rendered with no value 1`] = `
+<div
+  className="form-group"
+  id="searchbar-wrapper"
+>
+  <input
+    className="form-control"
+    onChange={[Function]}
+    placeholder="Search employees"
+    type="text"
+  />
+</div>
+`;

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage tests Ensure homepage has it's structure set correctly  1`] = `
+<div
+  className="card"
+>
+  <div
+    className="card-body scrollbar-pretty"
+  >
+    <div
+      className="header"
+    >
+      <h4
+        className="header-title"
+      >
+        Employee Directory
+      </h4>
+    </div>
+    <div
+      className="form-group"
+      id="searchbar-wrapper"
+    >
+      <input
+        className="form-control"
+        onChange={[Function]}
+        placeholder="Search employees"
+        type="text"
+      />
+    </div>
+    <div>
+      <ul
+        className="list-group"
+      />
+    </div>
+  </div>
+</div>
+`;

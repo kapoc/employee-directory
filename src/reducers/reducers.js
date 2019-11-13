@@ -2,16 +2,13 @@ import { SELECT_EMPLOYEE } from '../actions/actions';
 import { ADD_EMPLOYEES } from '../actions/actions';
 import { ADD_EMPLOYEE } from '../actions/actions';
 import { UPDATE_TITLE } from '../actions/actions';
-import { SET_SEARCH_QUERY } from '../actions/actions';
+import { FILTER_EMPLOYEES } from '../actions/actions';
 
 
 function rootReducer(state, action){
   switch(action.type) {
     case ADD_EMPLOYEES:
       return Object.assign({}, state, {
-        allEmployees: [
-          ...action.employees
-        ],
         employees: [
           ...action.employees
         ]
@@ -43,7 +40,7 @@ function rootReducer(state, action){
       }
     }
 
-    case SET_SEARCH_QUERY: {
+    case FILTER_EMPLOYEES: {
       // empty query
       if (!action.query){
         return {

@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`EmployeeListItem tests renders user list item if it is set to visible 1`] = `
+<li
+  className="list-group-item employee-item-wrapper"
+  onClick={[Function]}
+>
+  <div
+    className="employee-item"
+  >
+    <div
+      className="image-item"
+    >
+      <img
+        className="employee-image"
+      />
+    </div>
+    <div
+      className="info-item"
+    >
+      <span
+        className="name"
+      >
+         
+      </span>
+      <span
+        className="title"
+      />
+    </div>
+  </div>
+</li>
+`;

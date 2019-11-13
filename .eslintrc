@@ -19,7 +19,10 @@
     "no-eval": "error",
     "import/first": "error",
     "react/prop-types": 0,
-    "no-unused-vars": "warn"
+    "no-unused-vars": "warn",
+    "react/jsx-closing-bracket-location": 1,
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error",
   },
   "settings": {
     "react": {
